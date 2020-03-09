@@ -12,3 +12,16 @@ footer{
 h3{
     margin-top: 10px;
 }
+.container {
+    float: left;
+    width: 400px;
+
+}
+.container-fluid{
+    clear: both;
+}
+@media only screen and (max-width:640px) {
+    .container {
+        size: 70%;
+    }
+}
