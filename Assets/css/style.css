@@ -24,4 +24,8 @@ h3{
     .container {
         size: 70%;
     }
+#project1{
+    width: 10px;
+    height: 200px;
+}
 }
