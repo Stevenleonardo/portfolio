@@ -1,0 +1,45 @@
+html,
+body {
+  min-height: 100vh;
+}
+main.container {
+  width: 100%;
+  max-width: 100%;
+}
+.pages {
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+.page {
+  padding: 4.5em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 80vh;
+  visibility: hidden;
+  z-index: 1;
+}
+.page.prev {
+  visibility: visible;
+  position: static;
+  z-index: 1;
+}
+.page.active {
+  visibility: visible;
+  position:relative;
+  z-index: 3;
+}
+.page.fixed {
+  visibility: visible;
+  position: fixed;
+  z-index: 2;
+}
+.footer {
+  width: 100%;
+  min-height: 80vh; /* slighlty bigger to force scroll! */
+}
+.footer > .row {
+  margin-bottom:0;
+}
